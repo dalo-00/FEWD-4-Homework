@@ -1,0 +1,62 @@
+
+main.aa{
+ background-color: #bfe2e3;
+ font-family: 'Courier New', Courier, monospace;
+ border: 3px solid #887;
+}
+
+.hp-issue-index {
+  text-decoration: underline;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: rgb(4, 83, 83);
+}
+
+ul.hp-issue-article-list {
+  color: red;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.hp-news-container
+{
+  color: rgb(4, 83, 83);
+  
+}
+.hp-news-block-container-1
+{
+
+text-align: center;
+}
+
+.hp-news-block-container-3
+{
+text-align: right;
+}
+
+.footer-container
+{
+  background-color: #bfe2e3;
+  border: 3px solid #887;
+  color: rgb(4, 83, 83);
+}
+.footer-block-container-1, .footer-block-container-2, .footer-block-container-3
+{
+  margin-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.fontcolor
+{
+  text-decoration: underline;
+  color:red;
+}
+
+img {
+  position: relative;
+  width: 50%;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
