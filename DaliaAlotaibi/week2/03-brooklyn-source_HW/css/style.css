@@ -1,0 +1,114 @@
+/* 
+
+## Style Hints: 
+
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+
+Link Hover Color = #20222a
+
+*/
+body
+{
+	font-size: 12px;
+	line-height :17px;
+	Font-Family: "Times New Roman", serif;
+	color : #656565;
+}
+.container-1
+{
+display:flex;
+flex-direction:column;
+align-content:center;
+border:2px solid #656565 ;
+margin: 2px;
+padding-right: 200px;
+padding-left: 100px;
+flex-wrap: nowrap;
+}
+ 
+
+.container-2
+{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+    /*border:2px solid pink;*/
+	margin: 2px;
+}
+
+
+.head-img
+{
+	margin: 2px; 
+    height:600px;
+}
+
+
+a:hover{
+	background-color:grey ;
+}
+a{
+	display: inline;
+	color:dodgerblue
+}
+
+.container-4
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	
+}
+
+.four
+{
+display: inline;
+border:4px solid rgb(197, 196, 196) ;
+padding: 1px;
+width:270px;
+}
+
+.logos
+{
+	width:100%;
+	height:100%;
+	
+}
+
+.text1,.text2
+{
+	display: block;
+	padding-bottom:20px ;
+	
+	/*border:3px solid red ;*/
+}
+
+p
+{
+	display: inline;
+}
+
+
+
+.section
+{
+	width: 100%;
+}
+
+footer
+{
+	display: block;
+	align-self: left;
+	padding-bottom: 2px;
+}
+
+.date
+{
+	display: block;
+	color:DodgerBlue;
+}
