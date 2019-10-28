@@ -1,0 +1,291 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  background-color: rgba(235, 235, 235, 0.692);
+  text-align: center;
+  margin-left:200px;
+  margin-right: 200px;
+ 
+}
+
+.header
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+#logo
+{
+  width:100px;
+  height:30px;
+  margin-left:30px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+nav ul li
+{
+  display: inline-block;
+  color:gray;
+  margin-right:10px;
+  padding: 0;
+  
+}
+ul li{
+  font-size:12px;
+  font-style: bold;
+}
+
+
+.topimg
+{
+ 
+  background-image: url('../img/melbourne.jpg');
+  background-size: 280% auto;
+  background-position:top center;
+  background-repeat:no-repeat ;
+  background-color:  rgba(121, 117, 117, 0.692);
+  background-blend-mode: multiply;
+  background-clip: padding-box;
+  padding: 2em;
+  
+ 
+}
+
+
+.textonimg
+{
+  
+  color:white;
+  
+ 
+  
+}
+
+.topimg h1
+{
+
+font-size: 50px;
+font-family:'Segoe UI', Geneva, Verdana, sans-serif;
+letter-spacing:2px;
+line-height: 1em 2em;
+margin-top:150px;
+margin-bottom:0;
+
+}
+.topimg p
+{
+  
+margin-top:15px;
+font-size: 12px;
+padding: 0;
+
+}
+#text1
+{
+  
+  background-color:#ff5a5f;
+  color: white;
+  padding:15px;
+  margin-top:10px;
+  font-size:12px;
+  display: inline-block;
+}
+
+.container1
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+ 
+}
+.column1
+{
+  background-color:white;
+  text-align:left;
+  
+}
+
+.column1 h3
+{
+background-color:rgba(218, 220, 220, 0.692);
+margin-top:0;
+padding:10px;
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#col1
+{
+  margin-right: 20px;
+ 
+}
+.column1 p
+{
+  clear: both;
+  display: inline;
+  padding:40px;
+  line-height: 2em;
+  color: gray;
+}
+#icon2
+{
+  display: inline;
+  float: left;
+  padding:20px;
+  
+}
+
+.container2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+.item1
+{
+  background-color: white;
+  color:rgb(92, 91, 91);
+  
+}
+.subcontainer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0 ;
+}
+.item2
+{
+  background-color: white;
+  width: 30%;
+  height: 470px;
+  
+  
+}
+.box1,.box2,.box3
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0; 
+ 
+}
+  
+.subbox1 h1,.subbox2 h1,.subbox3 h1
+{
+  padding-top:40px;
+}
+#box1_1
+{
+  background-image: url('../img/fitzroy.jpg');
+  background-size: cover;
+  background-position:center center;
+  background-repeat:no-repeat ;
+  background-color:  rgba(78, 66, 66, 0.692);
+  background-blend-mode: multiply;
+  color:white;
+  margin:0;
+  height: 350px;
+  font-size:14px;
+}
+
+#box2_1
+{
+  background-image: url('../img/st-kilda.jpg');
+  background-size: cover;
+  background-position:center center;
+  background-repeat:no-repeat ;
+  background-color:  rgba(78, 66, 66, 0.692);
+  background-blend-mode: multiply;
+  color:white;
+  margin:0;
+  height: 350px;
+  font-size:14px;
+}
+
+#box3_1
+{
+  background-image: url('../img/central-business-district.jpg');
+  background-size: cover;
+  background-position:center center;
+  background-repeat:no-repeat ;
+  background-color:  rgba(78, 66, 66, 0.692);
+  background-blend-mode: multiply;
+  color:white;
+  margin:0;
+  height: 350px;
+  font-size:14px;
+}
+
+#box1_1 h2,#box2_1 h2,#box3_1 h2
+{
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:0;
+  margin: 0;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#box1_1 p,#box2_1 p,#box3_1 p
+{
+  text-align: center;
+  padding-top:0;
+  margin: 0;
+ 
+}
+
+#box1_2 , #box2_2 , #box3_2
+{
+  background-color:rgba(218, 220, 220, 0.692);
+  padding:10px ;
+  text-align: left;
+  color:gray;
+  font-size:14px;
+  height:40px;
+  
+  
+}
+
+#text2
+{
+  
+  background-color:#ff5a5f;
+  color: white;
+  padding:20px;
+  display: inline-block;
+  font-size:12px;
+  letter-spacing: 1px;
+  
+}
+
+footer
+{
+  
+  background-image: url('../img/footer.png');
+  background-color: #2b2d2e;
+  background-size: cover;
+  background-position:top top;
+  background-repeat:no-repeat ;
+}
+.footer-text
+{
+  
+  color:rgb(172, 169, 169);
+  padding:10px;
+  margin-top:0;
+  height: 40px;
+  
+}
+.footer-bar {
+  
+  
+  border-bottom: 2px solid rgb(95, 94, 94);
+  height: 40px;
+}
